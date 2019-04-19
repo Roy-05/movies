@@ -1,7 +1,12 @@
 var search_button = document.getElementById('search-button'),
     input_box = document.getElementById('input-box'),
-    list = document.getElementById('list');
+    video = document.getElementById('video');
+
+var source = document.createElement('source');
 
 search_button.addEventListener('click',()=>{
-    list.innerHTML = input_box.value;
+
+    source.setAttribute('src', `../My Movies/${input_box.value}.mp4`);
+    video.appendChild(source);
+    //video.play();
 });
