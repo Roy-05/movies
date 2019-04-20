@@ -1,0 +1,22 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "description": "UI Interface for Movie Database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roy-05/movies.git"
+  },
+  "author": "Saket Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Roy-05/movies/issues"
+  },
+  "homepage": "https://github.com/Roy-05/movies#readme",
+  "dependencies": {
+    "file-system": "^2.2.2"
+  }
+}
